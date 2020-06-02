@@ -1,0 +1,194 @@
+/* ========================= */
+/*       BASIC SETUP         */
+/* ========================= */
+*
+{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    /* box-sizing: border-box; */
+}
+html
+{
+    font-size: 62.5%;  /* 10px */
+    scroll-behavior: smooth;
+}
+body
+{
+    font-family: 'PT Serif', serif;
+    text-rendering: optimizeLegibility; line-height: 1.3rem;
+    color: #010101;
+}
+a, a:hover
+{
+    list-style-type: none;
+    text-decoration: none;
+}
+nav
+{
+    font-size: 1.6rem;
+}
+/* ========================= */
+/*      END BASIC SETUP      */
+/* ========================= */
+
+/* ================================== */
+/*      START REGULAR USE SETUP       */
+/* ================================== */
+section
+{
+    padding: 8rem 0;
+}
+h1, h2, h3, h4, h5, h6, a, ul, ol, button, input, p
+{
+    margin: 0;
+    padding: 0;
+}
+/* h3
+{
+    font-size: 3.2rem;
+} */
+/*
+h3
+{
+    color: #010101;
+    font-size: 2.2rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+h6
+{
+    color: #010101;
+    font-size: 2rem;
+    text-transform: capitalize;
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+.small-paragraph
+{
+    color: #010101;
+    font-size: 1.6rem;
+    text-transform: capitalize;
+} */
+.container
+{
+    max-width: 96rem !important;
+}
+/* ================================== */
+/*        END REGULAR USE SETUP       */
+/* ================================== */
+
+/* =============================== */
+/*      START HEADER SETUP         */
+/* =============================== */
+.header-section
+{
+ background: linear-gradient(#fcda00e7, #fcda00e7), url("/Images-Folder/background/bg-pgoto-1.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center center;
+ background-attachment: fixed;
+ padding: 5.5rem 0;
+}
+
+/*      START NAVBAR SETUP         */
+.header-section .container nav ul li .nav-new-style
+{
+    color:#010101;
+    font-weight: 600;
+    font-size: 2rem;
+    padding-left: 5.8rem;
+}
+.header-section .container nav ul li .nav-new-style:hover
+{
+    color: #010101;
+}
+/*      END NAVBAR SETUP         */
+/* .carousel-left
+{
+
+}
+.header-section .container .carousel-inner ul li a i.fab
+{ */
+    
+}
+/* .header-section .container .carousel-inner h3
+{
+    color: #010101;
+    font-size: 3.2rem;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 2.5rem;
+} */
+/* .header-section .container .carousel-inner h6
+{
+    color: #010101;
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 2rem;
+} */
+/* .header-section .container .carousel-inner p
+{
+    color: #010101;
+    font-size: 1.6rem;
+} */
+
+.carousel-left h1
+{
+    font-size: 3.2rem;
+    color: #010101;
+    font-weight: 700;
+}
+.carousel-left h4
+{
+    color: #313841;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-right: 12rem;
+}
+.carousel-left p
+{
+    color: #555555;
+    font-size: 1.6rem;
+    font-weight: 200;
+    margin-right: 12rem;
+}
+.carousel-left .list-inline a
+{
+    color: #010101;
+    font-size: 3.5rem;
+    margin-right: 3rem;
+}
+.carousel-indicators li {
+    width: 1.5rem !important;
+    height: 1.5rem !important;
+    cursor: pointer !important;
+    background-color: #fff !important;
+    border-radius: 50% !important;
+    transition-delay: .2s !important;
+}
+/* =============================== */
+/*      END HEADER SETUP           */
+/* =============================== */
+
+/* ========================================= */
+/*        START TINYONE FEATURES SETUP       */
+/* ========================================= */
+
+
+
+/* ========================================= */
+/*        END TINYONE FEATURES SETUP       */
+/* ========================================= */
+
+/* ============================================== */
+/*        START KEEP IN TOUCH WITH US SETUP       */
+/* ============================================== */
+
+
+
+/* ============================================== */
+/*        START KEEP IN TOUCH WITH US SETUP       */
+/* ============================================== */

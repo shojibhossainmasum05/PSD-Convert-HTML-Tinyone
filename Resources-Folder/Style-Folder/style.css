@@ -42,6 +42,7 @@ section
 h1, h2, h3, h4, h5, h6, a, ul, ol, button, input, p
 {
     margin: 0;
+    color: #010101;
     padding: 0;
 }
 /* h3
@@ -85,10 +86,10 @@ h6
 /* =============================== */
 .header-section
 {
- background: linear-gradient(#fcda00e7, #fcda00e7), url("/Images-Folder/background/bg-pgoto-1.jpg");
+ background: linear-gradient(#fcda00e7, #fcda00e7), url("https://images.unsplash.com/photo-1573164574511-73c773193279?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
  background-repeat: no-repeat;
  background-size: cover;
- background-position: center center;
+ background-position: center bottom;
  background-attachment: fixed;
  padding: 5.5rem 0;
 }
@@ -177,8 +178,41 @@ h6
 /*        START TINYONE FEATURES SETUP       */
 /* ========================================= */
 
+.tinyone-features 
+{
+    background: linear-gradient(rgba(255, 255, 255, 0.897), rgba(255, 255, 255, 0.897)), url("https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    padding: 10rem 0;
+}
+.tinyone-features h4
+{
+    color: #313841;
+    border-bottom: .1rem solid #313841;
+    padding: 2.5rem 13.6rem;
+}
+.tinyone-icons img 
+{
+    position: absolute;
+    margin-top: 3rem;
+}
+.tinyone-text
+{
+    position: relative;    
+    margin-left: 8rem;
+    margin-top: 3rem;
+}
+.tinyone-text p
+{
+    color: #898989;
+    margin-top: 1rem;
+    font-size: 1.6rem;
+    margin-right: 1rem;
+    margin-top: 1.2rem;
+    text-align: justify;
 
-
+}
 /* ========================================= */
 /*        END TINYONE FEATURES SETUP       */
 /* ========================================= */
@@ -187,8 +221,72 @@ h6
 /*        START KEEP IN TOUCH WITH US SETUP       */
 /* ============================================== */
 
-
-
+.touch-section
+{
+    background: #010101;
+    padding: 10rem 0;
+}
+.touch-section h1
+{
+    color: #fcdb00;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+.touch-section p
+{
+    color: #717171;
+    font-size: 1.8rem;
+    font-weight: 200;
+}
+.support-info
+{
+    margin: 0 10rem;
+}
+.support-info input
+{
+    margin-left: 1rem !important;
+}
+.btn
+{
+ color: #010101 !important;
+ padding: 0.6rem 1.5rem !important;
+ margin-left: 1rem !important;
+ font-size: 1.4rem !important;
+ margin-right: 7rem !important;
+}
+.btn-warning
+{
+    color: #010101 !important;
+    background-color: #fcdb00 !important;
+    border-color: #fcdb00 !important;
+}
+.btn-warning:hover
+{
+    background-color: #fcdb00 !important;
+}
+.btn-warning:focus, .btn-warning:active
+{
+    border-color: #fcdb00 !important;
+}
+.form-control
+{
+    font-size: 1.6rem !important;
+}
+.support-social a
+{
+    color: #fcdb00;
+    font-size: 4.5rem; 
+    padding: 0 1.2rem;
+}
+.style
+{
+    color: #fff;
+    font-size: 1rem;
+}
+.style:hover
+{
+    color: #fcdb00;
+}
 /* ============================================== */
 /*        START KEEP IN TOUCH WITH US SETUP       */
 /* ============================================== */
